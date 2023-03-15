@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas Kalkulator</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h1>TUGAS 4 JS<br> DOM, FUNCTION </h1>
+  <hr color="white">
+
+  <form action="" id="frm">
+    <table>
+      <tr >
+        <td colspan="2" style="font-weight: bold; background-color: gold;">KALKULATOR SEDERHANA <br> OPERASI ARITMATIKA MENGGUNAKAN JS</td>
+      </tr>
+      <tr>
+        <td>Angka ke-1 :</td>
+        <td><input type="text" name="angka" id="angka1" placeholder="masukkan angka pertama"></td>
+      </tr>
+      <tr>
+        <td>Angka ke-2 :</td>
+        <td><input type="text" name="angka2" id="angka2" placeholder="masukkan angka kedua"></td>
+      </tr>
+      <tr>
+        <td>Hasil :</td>
+        <td><input type="text" name="hasil" id="hasil" value="" disabled></td>
+      </tr>
+      
+      
+      
+      <tr>
+        <td colspan="2" style="background-color: #F8F8FF;">
+          <H3>KETERANGAN :</H3>
+          <p id="inputuser"></p>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2" style="height: 80px; background-color: #F0E68C;">
+          <button type="button" name="btn_tambah" onclick="tambah()">+</button>
+          <button type="button" name="btn_kurang" onclick="kurang()">-</button>
+          <button type="button" name="btn_kali" onclick="kali()">*</button>
+          <button type="button" name="btn_bagi" onclick="bagi()">/</button>
+          <button type="button" name="btn_pangkat" onclick="pangkat()">^</button>
+          <br>
+          <br>
+          <input type="button" value="Reset" onclick="resetForm()">
+        </td>
+      </tr>
+    </table>
+  </form>
+
+  <br>
+  <div class="center">
+      <a class="button" href="index.html">Klik untuk kembali ke soal</a>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

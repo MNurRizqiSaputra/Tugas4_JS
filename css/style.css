@@ -1,0 +1,101 @@
+body {
+    background-color: navy;
+    color: white;
+    margin: 50px;
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    table-layout: fixed;
+    text-align: center; 
+    border-style: solid;
+    border-color: maroon;
+    background-color: #FFFAFA;
+    color: black;
+    
+}
+
+td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+button {
+    background-color: #48D1CC;
+    border: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #FFFFE0;
+}
+
+/* untuk button index */
+.button {
+    background-color: #ffffff;
+    color: rgb(5, 5, 5);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.button:hover {
+    background-color: #F0E68C;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 600px;
+    max-width: 100%; /* add this line */
+}
+.container {
+    height: 100%;
+    width: 500px;
+    border: 2px solid gold;
+    display:block; 
+    margin:auto;
+}
+
+/* table{
+    table-layout: fixed;
+    padding: 10; 
+    text-align: center; 
+    width: 100%;
+    border-style: solid;
+    border-color: gold;
+    background-color: floralwhite;
+    color: black;
+} */
+
